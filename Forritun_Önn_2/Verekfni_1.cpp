@@ -27,8 +27,8 @@ void Grid::Grid_Change(int a, int b){    // Snýr við hnitunum
     a = y;
     b = x;
     }
-void Grid::Grid_Display(){
-    cout << "Hnitin víxluð eru: " << y << ", " << x;
+void Grid::Grid_Display(){  // Gefur ut hnitin vixlud
+    cout << "Hnitin víxluð eru: " << y << ", " << x; 
 }
 
 /*****   Main   *****/
