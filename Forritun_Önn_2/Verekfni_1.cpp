@@ -19,10 +19,10 @@ class Grid{
         void Grid_Change(int, int); // Býr til Grid_Change
         int Flip(int b, int h) {
             int temp;
+            temp = x;
+            x = y;
+            y = temp;
             return
-            temp = h;
-            h = b;
-            b = temp;
             }
 };
 void Grid::Grid_Set (int breidd, int haed){   // Breitir hnitunum
