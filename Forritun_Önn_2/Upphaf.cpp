@@ -20,21 +20,23 @@ using namespace std;
 int main()
 {
     int run;
-    run = 0;
-    while (run == 0) {
+    run = true;
+    do {
         int Lidur;
-        cout << "\nLidur 1: " ; 
-        cout << "\nLidur 2: " ;
-        cout << "\nLidur 3: " ;
-        cout << "\nHaetta 4: " ;
+        cout << "\n1 Lidur"; 
+        cout << "\n2 Lidur";
+        cout << "\n3 Lidur";
+        cout << "\n4 Haetta";
+        cout << "\n Val er: ";
         cin >> Lidur;
         switch (Lidur) {
         case 1:
         case 2:
         case 3:
         case 4:
-            run = 1;   
+            run = false;   
         }
     }
+    while (run == true);
     return 0;
 }
