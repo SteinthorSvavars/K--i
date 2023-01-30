@@ -22,15 +22,16 @@ using namespace std;
 int main()
 {
     int tala[20];
+    int x;
     for (int f=0; f != 20; f++) {
-        int x = 101;
+        x = 101;
         while(x > 100) 
             x = 1 + std::rand()/((RAND_MAX + 1u)/99);  
         std::cout << x << ' ';
         tala[f] = x;
     }
-    for(int f = 0; f = 20; f++) {
-        cout << tala[f];
+    for(int a = 1; a = 20; a++) {
+        std::cout << tala[a] << " ";
     }
     return 0;
 }
