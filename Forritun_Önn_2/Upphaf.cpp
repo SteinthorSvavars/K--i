@@ -9,7 +9,9 @@
 #include<bits/stdc++.h>
 #include <string>
 #include <algorithm>
-#include <cctype>  
+#include <cctype>
+#include <cstdlib>
+#include <ctime>  
 
 using namespace std;
 /*****   Classes   *****/
@@ -30,11 +32,11 @@ int main()
         cout << "\n Val er: ";
         cin >> Lidur;
         switch (Lidur) {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-            run = false;   
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                run = false;   
         }
     }
     while (run == true);
