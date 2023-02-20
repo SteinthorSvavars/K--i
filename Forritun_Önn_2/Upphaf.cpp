@@ -7,11 +7,11 @@
 #include<iostream>
 #include<iomanip>
 #include<bits/stdc++.h>
-#include <string>
-#include <algorithm>
-#include <cctype>
-#include <cstdlib>
-#include <ctime>  
+#include<string>
+#include<algorithm>
+#include<cctype>
+#include<cstdlib>
+#include<ctime>  
 
 using namespace std;
 /*****   Classes   *****/
